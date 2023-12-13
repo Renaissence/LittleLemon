@@ -1,0 +1,22 @@
+admin:
+	username: alban
+	password: Lemon@2023!
+
+	token: 1521feee7e300bc1917c9d4e8a6cff4c848f2a6f
+
+
+delivery_crew:
+	username: Berta
+	password: Lemon@786!	
+
+
+customer: 
+	username: albano
+	password: Lemon@786!
+	token:7c4bcafda3d814a6ed1053d7629db342e5841fa6
+	
+
+
+
+
+
