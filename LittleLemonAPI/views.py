@@ -145,3 +145,5 @@ class Single_Order_view(generics.RetrieveUpdateDestroyAPIView):
             return Order.objects.all()
         return Order.objects.filter(user=user)
 
+class Multiple_Order_View(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = UserOrdersSerializer

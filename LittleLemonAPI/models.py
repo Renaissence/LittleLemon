@@ -23,7 +23,7 @@ class MenuItem(models.Model):
         verbose_name = 'Menu Item'
         verbose_name_plural = 'Menu items'
 
-
+# Cart class to add items
 class Cart(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     menuitem = models.ForeignKey(MenuItem, on_delete=models.CASCADE)
